@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container {
+  width: 1024px;
+  height: 1072px;
+  margin: 0 auto;
+  margin-top: 64px;
+  font-family: "Montserrat", sans-serif;
+  background: #686868;
+}
+
+.main {
+  width: 844px;
+  height: 656px;
+  margin-left: 57px;
+  background: #464646;
+}
+
+.block-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 310px;
+  height: 656px;
+  background: #1A142D;
+}
+.block-photo .photo {
+  width: 273px;
+  height: 392px;
+  margin: 18px 19px 38px 18px;
+  background: url(/img/jon_snow.png);
+}
+.block-photo .name {
+  width: 266px;
+  height: 69px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.block-photo .date {
+  width: 266px;
+  height: 51px;
+  margin: 0 auto;
+  margin-bottom: 9px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.block-photo .date span {
+  font-weight: bold;
+}
+.block-photo .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 84.77px;
+  height: 33px;
+  margin: 0 auto;
+}
+.block-photo .social .icon {
+  width: 23px;
+  height: 23px;
+  background-color: antiquewhite;
+}
+.block-photo .social .facebook {
+  background: url(/img/facebook.svg);
+}
+.block-photo .social .facebook:hover {
+  position: relative;
+  top: -10px;
+}
+.block-photo .social .instagram {
+  background: url(/img/instagram.svg);
+}
+.block-photo .social .instagram:hover {
+  position: relative;
+  top: -10px;
+}
+.block-photo .social .twitter {
+  background: url(/img/twitter.svg);
+}
+.block-photo .social .twitter:hover {
+  position: relative;
+  top: -10px;
+}

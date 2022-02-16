@@ -1,0 +1,101 @@
+@import 'throw-off.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container{
+    width: 1024px;
+    height: 1072px;
+    margin: 0 auto;
+    margin-top: 64px;
+    font-family: 'Montserrat', sans-serif;
+
+    background: rgb(104, 104, 104);
+}
+
+.main{
+    width: 844px;
+    height: 656px;
+    margin-left: 57px;
+
+    background: rgb(70, 70, 70);
+}
+
+.block-photo{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 656px;
+
+    background: #1A142D;
+    .photo{
+        width: 273px;
+        height: 392px;
+        margin: 18px 19px 38px 18px;
+
+        background: url(/img/jon_snow.png);
+    }
+    .name{
+        width: 266px;
+        height: 69px;
+        margin: 0 auto;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .date{
+        width: 266px;
+        height: 51px;
+        margin: 0 auto;
+        margin-bottom: 9px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.875rem;
+        line-height: 1.063rem;
+        text-align: center;
+        color: #FFFFFF;
+        span{
+            font-weight: bold;
+        }
+    }
+    .social{
+        // position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        width: 84.77px;
+        height: 33px;
+        margin: 0 auto;
+        
+        .icon{
+            width: 23px;
+            height: 23px;
+
+            background-color: antiquewhite;
+        }
+        .facebook{
+            background: url(/img/facebook.svg);
+            &:hover{
+                position: relative;
+                top: -10px;
+            }
+        }
+        .instagram{
+            background: url(/img/instagram.svg);
+            &:hover{
+                position: relative;
+                top: -10px;
+            }
+        }
+        .twitter{
+            background: url(/img/twitter.svg);
+            &:hover{
+                position: relative;
+                top: -10px;
+            }
+        }
+    }
+}
